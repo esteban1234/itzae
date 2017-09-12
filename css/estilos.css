@@ -46,17 +46,7 @@ nav ul .selector{
   /*border: 2px red solid;*/
   height: 550px;
 }
-/*.carousel-caption{
-  border: 2px red solid;
-  top: 40%;
-  height: 200px;
-}
-.carousel-caption h1{
-  color: #F28C00;
-}
-.carousel-caption p{
-  color: #17202a;
-}*/
+
 #myCarousel .nav a small
 {
     display: block;
@@ -74,30 +64,6 @@ nav ul .selector{
 .nav-pills>li[data-slide-to="2"].active a { background-color: #424949; }
 .nav-pills>li[data-slide-to="3"].active a { background-color: #4d5656 ; }
 .nav-pills>li[data-slide-to="4"].active a { background-color: #1b2631; }
-/*#color{
-  color: #000;
-}*/
-
-/*.banner{
-    height: 550px;
-    background: url('../img/banner2.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-.banner p{
-  padding: 20px;
-  background-color: #000000;
-  font-family: 'Montserrat', sans-serif;
-  color: #D0D3D4;
-  font-size: 50px;
-  width: 65%;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 17%;
-}*/
 
 .btn-outline {
     background-color: transparent;
@@ -230,15 +196,6 @@ nav ul .selector{
     /*background-attachment: fixed;*/
     overflow: hidden;
 }
-/*.seccion4{
-  height: 580px;
-  background: url('../img/mapa.jpg');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-}*/
 
 /*--------------FOOTER----------*/
 footer{

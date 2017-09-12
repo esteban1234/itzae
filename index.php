@@ -69,7 +69,7 @@
             </div>
             <!-- End Item -->
             <div class="item">
-                <img src="img/grava.jpg" class="img-responsive">
+                <img src="img/grava.jpg">
                 <!-- <div class="carousel-caption">
                     <h1>
                         1234</h1>
