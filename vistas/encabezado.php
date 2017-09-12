@@ -14,6 +14,18 @@
   	<link rel="stylesheet" href="css/iconos.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<script src="js/general.js"></script>
-	<!-- <link href="https://fonts.googleapis.com/css?family=Khula|Montserrat|Roboto|Spectral" rel="stylesheet"> -->
+	
+	 <script src="js/smooth-scroll.min.js"></script>
+    <script>
+      smoothScroll.init({
+      selector: '[data-scroll]',
+      selectorHeader: null,
+      speed: 2000,
+      easing: 'easeInOutCubic',
+      offset: 0,
+      callback: function ( anchor, toggle ) {}
+      });
+    </script>
 </head>
