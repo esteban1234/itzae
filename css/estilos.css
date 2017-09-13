@@ -81,10 +81,10 @@ nav ul .selector{
 }
 .seccion1{
    height: 550px;
-    background: url('../img/banner2.png');
-    background-size: cover;
+    /*background: url('../img/banner2.png');*/
+    /*background-size: cover;*/
     /*background-position: center center;*/
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     /*background-attachment: fixed;*/
     overflow: hidden;
 }

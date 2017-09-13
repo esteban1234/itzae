@@ -106,7 +106,7 @@ Crecer desarrollando relaciones con empresas que ofrezcan productos que satisfag
     <img src="img/itzae.png" alt="ITZAE" class="img-responsive">
   </figure>
 
-  <div style="text-align: center; margin-top: 5%; margin-bottom: 5%; clear: both; color: #fff">
+  <div style="text-align: center; margin-top: 5%; margin-bottom: 5%; clear: both; color: #000">
     <a class="btn btn-warning btn-outline btn-lg" data-scroll href="#contact">CONTACTANOS</a>
   </div>
 </section>
