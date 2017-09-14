@@ -37,8 +37,9 @@ nav ul .selector{
 }
 
 .menu-op{
-  display: none;
+  display: none !important;
 }
+
 .selector:hover{
   color: #9B1544;
 }
