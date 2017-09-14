@@ -1,0 +1,463 @@
+@media screen and (max-width: 480px){
+
+	header{
+		height: 100%;
+		margin-bottom: 20px;
+	}
+
+
+	nav{
+		top:-12px;
+		width: 100%;
+		z-index: 2;
+		position: fixed;
+		display: none;
+		background: #e74c3c;;
+	}
+	
+	nav ul{
+		padding: 0px 10px;
+	}
+
+	nav ul a{
+		display: block;
+		text-align: center;
+		padding: 10px !important;
+		color:#fff !important;
+	}
+
+	nav ul a:hover{
+		color:#000 !important;
+	}
+	
+
+	.logo{
+		width: 40%;
+	}
+
+	.menu-op{
+	    position: absolute;
+	    right: 8%;
+	    top: 10%;
+	    cursor: pointer;
+	    z-index: 3;
+	    display: block;
+  	}
+	
+	.nav-justified{
+		display: none;
+	}
+
+	.carousel-inner{
+		border-radius: 10px;
+		height: 100%;
+	}
+
+	.seccion1{
+		height: 100%;
+		padding: 0px;
+	}
+
+	.texto{
+		width: 100%;
+		margin: 0px;
+		padding: 0px 20px;
+	}
+
+	.texto h1{
+		font-size: 35px;
+	}
+
+	.texto p{
+		font-size: 15px;
+	}
+	
+
+	.logo2{
+		display: none;
+	}
+
+	.btn-contact a{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.seccion2{
+		height: 100%;
+		padding: 0px;
+	}
+
+	.seccion2 h1, .seccion3 h1{
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.seccion2 > br, .seccion3 > br{
+		display: none;
+	}
+
+	.text-subtit{
+		font-size: 18px;
+	}
+
+	.alinear-texto{
+		text-align: justify;
+	}
+
+	.alinear-texto > br{
+		display: none;
+	}
+
+	.salto{
+		padding-top: 10px;
+	}
+	
+	#contact{
+		height: 100% !important;
+	}
+
+	#contactForm{
+		height: 100%;
+	}
+	
+	.form-control{
+		font-size: 12px;
+	}
+	
+	section#contact .form-group input,
+	section#contact .form-group textarea {
+    	padding: 7px;
+	}
+
+	.info-form{
+		margin-top: 20px;
+	}
+
+	.info-form p{
+		text-align: center;
+	}
+
+	strong{
+		font-size: 20px;
+	}
+
+
+	footer p{
+		/*border: 2px solid yellow;*/
+		width: 95%;
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 599px) and (min-width: 481px) {
+	header{
+		height: 100%;
+		margin-bottom: 20px;
+	}
+
+
+	nav{
+		margin-top: 20px;
+		width: 100%;
+		z-index: 2;
+		display: none;
+	}
+	
+	nav ul{
+		padding: 0px 10px;
+	}
+
+	nav ul a{
+		display: block;
+		text-align: center;
+		padding: 0px !important;
+	}
+	
+
+	.logo{
+		width: 40%;
+	}
+
+	.menu-op{
+	    position: absolute;
+	    right: 8%;
+	    top: 10%;
+	    cursor: pointer;
+	    z-index: 3;
+	    display: block;
+  	}
+
+	.nav-justified{
+		display: none;
+	}
+
+	.carousel-inner{
+		border-radius: 10px;
+		height: 100%;
+	}
+
+	.seccion1{
+		height: 100%;
+		padding: 0px;
+	}
+
+	.texto{
+		width: 100%;
+		margin: 0px;
+		padding: 0px 20px;
+	}
+
+	.texto h1{
+		font-size: 35px;
+	}
+
+	.texto p{
+		font-size: 15px;
+	}
+	
+
+	.logo2{
+		display: none;
+	}
+
+	.btn-contact a{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.seccion2{
+		height: 100%;
+		padding: 0px;
+	}
+
+	.seccion2 h1, .seccion3 h1{
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.seccion2 > br, .seccion3 > br{
+		display: none;
+	}
+
+	.text-subtit{
+		font-size: 18px;
+	}
+
+	.alinear-texto{
+		text-align: justify;
+	}
+
+	.alinear-texto > br{
+		display: none;
+	}
+
+	.salto{
+		padding-top: 10px;
+	}
+	
+	#contact{
+		height: 100% !important;
+	}
+
+	#contactForm{
+		height: 100%;
+	}
+	
+	.form-control{
+		font-size: 12px;
+	}
+	
+	section#contact .form-group input,
+	section#contact .form-group textarea {
+    	padding: 7px;
+	}
+
+	.info-form{
+		margin-top: 20px;
+	}
+
+	.info-form p{
+		text-align: center;
+	}
+
+	strong{
+		font-size: 20px;
+	}
+
+
+	footer p{
+		width: 95%;
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 799px) and (min-width: 600px) {
+	
+	header{
+		height: 100%;
+		margin-bottom: 20px;
+	}
+
+
+	nav{
+		margin-top: 20px;
+		width: 100%;
+		z-index: 2;
+		display: none;
+	}
+	
+	nav ul{
+		padding: 0px 10px;
+	}
+
+	nav ul a{
+		display: block;
+		text-align: center;
+		padding: 0px !important;
+	}
+	
+
+	.logo{
+		width: 40%;
+	}
+
+	.menu-op{
+	    position: absolute;
+	    right: 8%;
+	    top: 10%;
+	    cursor: pointer;
+	    z-index: 3;
+	    display: block;
+  	}
+
+	.nav-justified{
+		display: none;
+	}
+
+	.carousel-inner{
+		border-radius: 10px;
+		height: 100%;
+	}
+
+	.seccion1{
+		height: 100%;
+		padding: 0px;
+	}
+
+	.texto{
+		width: 100%;
+		margin: 0px;
+		padding: 0px 20px;
+	}
+
+	.texto h1{
+		font-size: 35px;
+	}
+
+	.texto p{
+		font-size: 15px;
+	}
+	
+
+	.logo2{
+		display: none;
+	}
+
+	.btn-contact a{
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	.seccion2{
+		height: 100%;
+		padding: 0px;
+	}
+
+	.seccion2 h1, .seccion3 h1{
+		font-size: 25px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.seccion2 > br, .seccion3 > br{
+		display: none;
+	}
+
+	.text-subtit{
+		font-size: 18px;
+	}
+
+	.alinear-texto{
+		text-align: justify;
+	}
+
+	.alinear-texto > br{
+		display: none;
+	}
+
+	.salto{
+		padding-top: 10px;
+	}
+	
+	#contact{
+		height: 100% !important;
+	}
+
+	#contactForm{
+		height: 100%;
+	}
+	
+	.form-control{
+		font-size: 12px;
+	}
+	
+	section#contact .form-group input,
+	section#contact .form-group textarea {
+    	padding: 7px;
+	}
+
+	.info-form{
+		margin-top: 20px;
+	}
+
+	.info-form p{
+		text-align: center;
+	}
+
+	strong{
+		font-size: 20px;
+	}
+
+
+	footer p{
+		width: 95%;
+		font-size: 17px;
+	}
+}
+
+@media screen and (max-width: 1023px) and (min-width: 800px) {
+	#contact{
+		height: 100% !important;
+	}
+
+	#contactForm{
+		height: 100%;
+	}
+
+	.seccion1, .seccion2{
+		height: 100%;
+	}
+
+	.info-form p{
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {      /* mac*/
+}
+@media screen and (max-width: 1366px) and (min-width: 1024px) { }
+
+@media screen and (min-width: 1367px) { }

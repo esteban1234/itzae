@@ -14,6 +14,10 @@
         <a class="selector" data-scroll href="#contact" aria-pressed="true">CONTACTO</a>
       </ul>
     </nav>
+
+    <div class="menu-op">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+    </div>
 </header>
 
 <div class="container-fluid">
@@ -106,47 +110,48 @@ Crecer desarrollando relaciones con empresas que ofrezcan productos que satisfag
     <img src="img/itzae.png" alt="ITZAE" class="img-responsive">
   </figure>
 
-  <div style="text-align: center; margin-top: 5%; margin-bottom: 5%; clear: both; color: #000">
+  <div class="btn-contact" style="text-align: center; margin-top: 5%; margin-bottom: 5%; clear: both; color: #000">
     <a class="btn btn-warning btn-outline btn-lg" data-scroll href="#contact">CONTACTANOS</a>
   </div>
 </section>
   <section class="seccion2">
-    <h1 style="">CAPACIDADES</h1> <br><br>
+    <h1>CAPACIDADES</h1> <br><br>
     <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
             class="img-responsive"> -->
-            <h3 class="text-center text-danger">ESTRATEGIAS COMERCIALES</h3>
-            <p>Desarrollo de estrategias de comercialización. <br>
+            <h3 class="text-center text-danger text-subtit">ESTRATEGIAS COMERCIALES</h3>
+            <p class="alinear-texto">Desarrollo de estrategias de comercialización. <br>
               Desarrollo de estrategias de mercadotecnia, ventas y promoción. <br>
               Desarrollo, implementación y seguimientos de planes de Merchandisingd</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3 salto">
             <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
             class="img-responsive"> -->
-            <h3 class="text-center text-danger">ANÁLISIS DE MERCADO</h3>
-            <p>Recopilación de información en el mercado (autoservicios, farmacias, etc.). <br>
+            <h3 class="text-center text-danger text-subtit">ANÁLISIS DE MERCADO</h3>
+            <p class="alinear-texto">Recopilación de información en el mercado (autoservicios, farmacias, etc.). <br>
               Análisis de mercado (precio, competencia). <br>
               Diseño de estrategias de lanzamiento de productos (publicidad, precio, posicionamiento). <br>
               Detección de oportunidades.</p>
           </div>
-          <div class="col-md-3">
+          <div class="clearfix visible-sm"></div>
+          <div class="col-sm-6 col-md-3">
             <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
             class="img-responsive img-rounded"> -->
-            <h3 class="text-center " style="color: #F28C00;">TECNOLOGÍA DE INFORMACIÓN</h3>
-            <p>Reportes de mercado. <br>
+            <h3 class="text-center text-subtit" style="color: #F28C00;">TECNOLOGÍA DE INFORMACIÓN</h3>
+            <p class="alinear-texto">Reportes de mercado. <br>
               Estadísticas de ventas por cliente, tipo de cliente, canal y región. <br>
               Cuentas por pagar. <br>
               Control de cuentas por pagar y cobranza. <br>
               Control de cuentas de devoluciones.</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-sm-6 col-md-3">
             <!-- <img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png"
             class="img-responsive"> -->
-            <h3 class="text-center " style="color: #F28C00;">LOGISTICA</h3>
-            <p>Transporte del producto desde cualquier punto internacional hasta nuestros almacenes.<br> 
+            <h3 class="text-center text-subtit" style="color: #F28C00;">LOGISTICA</h3>
+            <p class="alinear-texto">Transporte del producto desde cualquier punto internacional hasta nuestros almacenes.<br> 
             Coordinación de importaciones (permisos y logística). <br>
             Almacenaje y control de inventarios. <br>
             Recibo de producto. <br>
@@ -164,21 +169,21 @@ Crecer desarrollando relaciones con empresas que ofrezcan productos que satisfag
   <div class="section">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imgser">
               <img src="" alt="">
             </figure>
             <h3 class="text-center text-danger">Comercio en Ferreterías</h3>
             <p class="text-justify">Contamos con un gran surtido ferretero y junto a nuestros proveedores, llegamos a ser la solución ferretera ideal y de confianza para los clientes que construyen y cuidan de sus bienes más preciados.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imgser2">
               <img src="" alt="">
             </figure>
             <h3 class="text-center text-danger">Comercio en Tlapalerías</h3>
             <p class="text-justify">Contamos con una amplia gama de productos para la industria como herramientas de mano, equipo eléctrico, así como plomeria, etc.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-sm-4 col-md-4">
             <figure class="imgser3">
               <img src="" alt="">
             </figure>
@@ -222,39 +227,39 @@ Crecer desarrollando relaciones con empresas que ofrezcan productos que satisfag
                 </div>
                 <div class="row">
                     <div class="col-md-8">
-                        <form name="sentMessage" id="contactForm" novalidate="">
+                        <form name="sentMessage" id="contactForm" onSubmit="return false">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Escribe tu nombre completo *" id="name" required="" data-validation-required-message="Please enter your name.">
+                                        <input type="text" class="form-control" placeholder="Escribe tu nombre completo *" id="txtNOMBRE" required="" data-validation-required-message="Please enter your name.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Escribe tu correo *" id="email" required="" data-validation-required-message="Please enter your email address.">
+                                        <input type="email" class="form-control" placeholder="Escribe tu correo *" id="txtCORREO" required="" data-validation-required-message="Please enter your email address.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                     <div class="form-group">
-                                        <input type="tel" class="form-control" placeholder="Escribe tu numero teléfonico *" id="phone" required="" data-validation-required-message="Please enter your phone number.">
+                                        <input type="tel" class="form-control" placeholder="Escribe tu numero teléfonico *" id="txtTELEFONO" required="" data-validation-required-message="Please enter your phone number.">
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <textarea class="form-control" placeholder="Escribe tu mensaje *" id="message" required="" data-validation-required-message="Please enter a message."></textarea>
+                                        <textarea class="form-control" placeholder="Escribe tu mensaje *" id="txtCOMENTARIO" required="" data-validation-required-message="Please enter a message."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="col-lg-12 text-center">
-                                    <div id="success"></div>
+                                    <div id="_AJAX_PRE_"></div>
                                     <div style="text-align: center; margin-top: 5%; margin-bottom: 5%; clear: both; color: #fff">
-                                      <a class="btn btn-warning btn-outline btn-lg" href="#">Enviar Mensaje</a>
+                                      <a class="btn btn-warning btn-outline btn-lg"  onclick="sendCORREO()">Enviar Mensaje</a>
                                      </div>
                                 </div>
                             </div>
                         </form>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 info-form">
                         <p style="color:#fff;">
                             <strong><i class="fa fa-map-marker"></i> Dirección</strong><br>
                             BLVD. ARCOIRIS #114 POR AV. BEIGE Y AV. INDIGO. COL. MONTE REAL, TUXTLA GUTIERREZ, CHIAPAS. C.P. 29023
@@ -276,8 +281,10 @@ Crecer desarrollando relaciones con empresas que ofrezcan productos que satisfag
 
 <?php include 'vistas/pie.php' ?>
 <script src="js/jquery.js"></script>
+<script src="js/menu.js"></script>
 <script src="js/slide.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/sendCORREO.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha384-3ceskX3iaEnIogmQchP8opvBy3Mi7Ce34nWjpBIwVTHfGYWQS9jwHDVRnpKKHJg7" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.3.7/js/tether.min.js" integrity="sha384-XTs3FgkjiBgo8qjEjBk0tGmf3wPrWtA6coPfQDfFEY8AnYJwjalXCiosYRBIBZX8" crossorigin="anonymous"></script>
 

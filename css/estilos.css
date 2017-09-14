@@ -35,6 +35,10 @@ nav ul .selector{
   font-family: 'Montserrat', sans-serif;
     font-size: 20px;
 }
+
+.menu-op{
+  display: none;
+}
 .selector:hover{
   color: #9B1544;
 }

@@ -14,7 +14,7 @@
   	<link rel="stylesheet" href="css/iconos.min.css">
 	<link rel="stylesheet" href="css/estilos.css">
 	<link rel="stylesheet" href="css/responsivo.css">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<!-- <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"> -->
 	<script src="js/general.js"></script>
 	
 	 <script src="js/smooth-scroll.min.js"></script>
