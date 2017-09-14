@@ -268,7 +268,7 @@ Crecer desarrollando relaciones con empresas que ofrezcan productos que satisfag
                             PENDIENTE</p>
                         <p style="color:#fff;">
                             <strong><i class="fa fa-envelope"></i> Correo</strong><br>
-                            info@comercializadoraitzae.com</p>
+                            info@itzae.com.mx</p>
                         <p style="color:#fff;">
                             <strong><i class="fa fa-clock-o"></i>  Horario</strong><br>
                             Lunes a Viernes de 9 am a 6 pm</p>
